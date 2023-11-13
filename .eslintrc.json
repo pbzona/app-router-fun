@@ -1,3 +1,55 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "root": true,
+  "rules": {
+    "array-bracket-spacing": [
+      "error",
+      "always"
+    ],
+    "brace-style": "error",
+    "camelcase": [
+      "error",
+      {
+        "ignoreDestructuring": true
+      }
+    ],
+    "eqeqeq": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "no-console": "warn",
+    "no-else-return": "error",
+    "no-shadow": "error",
+    "no-undef-init": "error",
+    "no-unused-expressions": "warn",
+    "no-var": "error",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "prefer-const": "error",
+    "prefer-template": "warn",
+    "require-await": "error",
+    "template-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
 }
