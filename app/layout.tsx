@@ -17,8 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="bg-violet-700 text-white w-full p-4">
-          Root layout
+        <header className="bg-violet-800 text-white w-full py-4 px-2">
+          Root layout -
+          <span className="font-mono"> @/app/layout.tsx</span>
         </header>
         {children}
       </body>

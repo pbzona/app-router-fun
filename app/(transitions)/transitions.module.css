@@ -1,0 +1,11 @@
+.slidingPage {
+  transition: all ease 1s;
+}
+
+.offscreen {
+  transform: translateX(-100%);
+}
+
+.onscreen {
+  transform: translateX(0);
+}
