@@ -3,10 +3,10 @@
 import React, { useEffect, useState } from "react";
 import styles from "./transitions.module.css";
 
-type TransitionStates = "offscreen" | "onscreen";
+type TransitionState = "offscreenleft" | "onscreen" | "offscreenright";
 
 const TransitionTemplate = ({ children }: { children: React.ReactNode }) => {
-  const [ transitionState, setTransitionState ] = useState<TransitionStates>("offscreen");
+  const [ transitionState, setTransitionState ] = useState<TransitionState>("offscreenleft");
   
   // This will run twice in dev because of React Strict Mode
   // unless `reactStrictMode: false` is set in next.config.js

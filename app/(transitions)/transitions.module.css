@@ -2,8 +2,12 @@
   transition: all ease 1s;
 }
 
-.offscreen {
+.offscreen, .offscreenleft {
   transform: translateX(-100%);
+}
+
+.offscreenright {
+  transform: translateX(100%);
 }
 
 .onscreen {
