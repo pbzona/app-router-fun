@@ -1,5 +1,6 @@
 "use client";
 
+// eslint-disable-next-line
 import React, { useEffect, useState, Suspense } from "react";
 import styles from "./transitions.module.css";
 import { NavigationEvents } from "@/components/navigation-events";
